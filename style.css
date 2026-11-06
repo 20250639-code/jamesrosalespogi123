@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+header h1{
+    font-size: 25px;
+}
+header nav{
+    display: flex;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li a{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+a{
+    margin: 20px;
+    text-decoration: none;
+
+}
+.first-page{
+    width: 100%;
+    height: 500px;
+}
+.first-page .james1{
+    margin: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.first-page .james1 .james2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        color: black;
+        width: 50%;
+}
+.first-page .james1 .james2 .p1{
+    font-size: 15px;
+    color: gray;
+}
+.first-page .james1 .james2 h1{
+    font-size: 50px;
+}
+.first-page .james1 .james2 p{
+    font-size: 15px;
+}
+.first-page .james1 .james2 button{
+    background-color: black;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+.first-page .james1 .james2 button a{
+    color: white;
+}
+
+.james3 img{
+    border-radius: 50%;
+    border: 3px solid black;
+    height: 300px;
+    width: 300px;
+}
+.second-page{
+    width: 100%;
+    height: 800px;
+        padding-top: 100px;
+}
+.second-page .title{
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 50px;
+}
+.second-page .boxes{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.second-page .box{
+     width: 300px;
+    height: 300px;
+    border: 2px solid rgb(214, 213, 213);
+    border-radius: 20px;
+    padding: 10px;
+}
+.second-page .boxes h1{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 2px solid gra;
+}
+.second-page .boxes .para{
+    margin-top: 20px;
+     margin-top: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 30px;
+    color: white;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+    height: 550px;
+}
+.contact .box{
+    width: 450px;
+    height: 450px;
+    border: 2px solid black;
+}
+.contact .box .contact-items a{
+    color: black;
+}
+
+
+.james13 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    width: auto;
+    height: auto;
+}
+
+
+
